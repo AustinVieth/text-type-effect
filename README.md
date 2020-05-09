@@ -12,7 +12,7 @@ Then...
 import draw from "text-type-effect";
 
 
-document.querySelectorAll('[data-typeeffect]').forEach(draw);
+document.querySelectorAll('[data-type-effect]').forEach(draw);
 
 ```
 
@@ -20,9 +20,15 @@ Or for a single element
 
 ```
 
-draw(document.querySelector('[data-typeeffect]'));
+draw(document.querySelector('[data-type-effect]'));
 
 ```
+
+Note: I am using the data-type-effect selector but this is not required, you only need to pass an element into the draw function.
+
+# HTML setup (optional)
+
+For each element that you would like to use the type effect on please add the 'data-type-effect' attribute.
 
 # Options
 
@@ -55,3 +61,13 @@ console.log(getDefault())
 ```
 
 This returns an object containing the properties: defaultMin and defaultMax.
+
+Additionally if you want different elements to type at different speed ranges you need to add: data-type-min='(minValue') data-type-max='(max-value)' to the element that you want to type at a different speed.
+
+# Additional Information
+
+In order to use the import, you will need to use a bundler like Parcel or Webpack.
+
+Pull requests welcome, suggestions as well.
+
+Thank You!
