@@ -62,7 +62,7 @@ console.log(getDefault())
 
 This returns an object containing the properties: defaultMin and defaultMax.
 
-Additionally if you want different elements to type at different speed ranges you need to add: data-type-min='(minValue') data-type-max='(max-value)' to the element that you want to type at a different speed.
+Additionally if you want different elements to type at different speed ranges you need to add: data-type-min='(minValue)' data-type-max='(max-value)' to the element that you want to type at a different speed.
 
 # Additional Information
 
