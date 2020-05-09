@@ -1,0 +1,19 @@
+{
+  "name": "text-type-effect",
+  "version": "1.0.0",
+  "description": "A Module that creates the effect of text being typed to the screen",
+  "main": "text-type-effect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinVieth/text-type-effect.git"
+  },
+  "author": "Austin Vieth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinVieth/text-type-effect/issues"
+  },
+  "homepage": "https://github.com/AustinVieth/text-type-effect#readme"
+}
